@@ -37,9 +37,11 @@ nav{
     list-style: none;
     padding-top: 10px;
     
+    
 }
 .iteam-parent a{
     text-decoration: none;
+    color: #000000;
 
 }
 
@@ -120,3 +122,45 @@ body {
   border-color: #ffffff;
 }
 
+.ak{
+    text-align: center;
+    
+}
+.ak h1{
+    color: #001931;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.jk {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  
+  
+}
+.aa{
+    display: flex;
+    gap: 10px;
+}
+.jk h3{
+    font-weight: 600;
+    font-size: 24px;
+    color: #001931;
+    margin: 10px auto;
+
+}
+
+.jk img {
+  background-color: rgb(221, 42, 42);
+  width: 50px;
+  height: 50;
+  border-radius: 50px;
+  text-align: center;
+
+  padding: 15px;
+}
