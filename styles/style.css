@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.btn{
+   border-radius: 4px;
+   padding: 15px 35px;
+   font-weight: 600;
+   font-size: 16px;
+   border: 1px solid white;
+   background-color: #018a3a;
+   color: #ffffff;
+}
+header{
+   background-color: #ffffff; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px ;
+}
+.iteam-parent{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding-top: 10px;
+    
+}
+.iteam-parent a{
+    text-decoration: none;
+
+    
+
+}
