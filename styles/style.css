@@ -17,6 +17,19 @@
    color: #ffffff;
    cursor: pointer;
 
+
+}
+.uu{
+    border-radius: 20px;
+    padding: 8px 12px;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    color: #30b868;
+    cursor: pointer;
+}
+.uu:hover{
+    background-color:#c8d6e1;
 }
 .btn:hover {
     background-color: #43a36f;
@@ -79,6 +92,7 @@ body {
     font-style: normal;
     margin: 10px auto;
 }
+
 .hrr-1{
     display: flex;
     justify-content: center;
@@ -163,4 +177,32 @@ body {
   text-align: center;
 
   padding: 15px;
+}
+
+.kkr{
+    display: flex;
+    align-items: center;
+}
+
+.ii{
+    display: flex;
+    margin: 12px auto;
+}
+.oo h6{
+    font-weight: 300;
+    font-size: 16px;
+    color: #30b868;
+    margin: 15px auto;
+}
+.oo h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #001931;
+    margin: 10px auto;
+}
+.oo p{
+    font-weight: 400;
+    font: 16px;
+    color: #627382;
+    margin: 30px auto;
 }
