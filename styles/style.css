@@ -206,3 +206,29 @@ body {
     color: #627382;
     margin: 30px auto;
 }
+.yy{
+    border: 1px solid #ffffff;
+    background-color: #f7f6f2;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+.yy h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #001931;
+    margin: 15px auto;
+}
+.yy p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    margin: 15px auto;
+
+}
+.ss{
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
