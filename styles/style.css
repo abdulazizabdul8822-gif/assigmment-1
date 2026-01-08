@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .container{
     max-width: 1200px;
@@ -12,12 +13,19 @@
    font-weight: 600;
    font-size: 16px;
    border: 1px solid white;
-   background-color: #018a3a;
+   background-color: #006028;
    color: #ffffff;
+   cursor: pointer;
+
 }
+.btn:hover {
+    background-color: #43a36f;
+}
+
 header{
    background-color: #ffffff; 
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -33,6 +41,82 @@ nav{
 .iteam-parent a{
     text-decoration: none;
 
-    
-
 }
+
+
+ .pk {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.hrr {
+  position: absolute;
+  text-align: center;
+  max-width: 700px;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+.h1-1{
+    color: #ffffff; 
+    font-style: normal;
+    margin: 10px auto;
+}
+.h1-2{
+    color: #02eb63;
+    font-style: normal;
+    margin: 10px auto;
+}
+.hrr p{
+    color: #ffffff;
+    font-style: normal;
+    margin: 10px auto;
+}
+.hrr-1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-a{
+    border-radius: 6px;
+    padding: 15px 10px;
+    border: 1px solid #006028;
+    background-color:#037c35;
+    display: inline-flex;
+    gap: 12px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    
+   
+}
+.btn-a:hover {
+    background-color: #43a36f;
+}
+
+.btn-b {
+  gap: 12px;
+
+  padding: 14px 28px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+
+  backdrop-filter: blur(6px);
+}
+
+.btn-b:hover {
+  border-color: #ffffff;
+}
+
