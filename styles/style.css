@@ -1,146 +1,163 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container{
+
+body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
     max-width: 1200px;
     margin: auto;
 }
-.btn{
-   border-radius: 4px;
-   padding: 15px 35px;
-   font-weight: 600;
-   font-size: 16px;
-   border: 1px solid white;
-   background-color: #006028;
-   color: #ffffff;
-   cursor: pointer;
+
+.btn {
+    border-radius: 4px;
+    padding: 15px 35px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: #006028;
+    color: #ffffff;
+    cursor: pointer;
 
 
 }
-.uu{
+
+.uu {
     border-radius: 20px;
     padding: 8px 12px;
     background-color: #ffffff;
     font-weight: 400;
     font-size: 16px;
-    color: #30b868;
+    color: #6dcd95;
     cursor: pointer;
 }
-.uu:hover{
-    background-color:#c8d6e1;
+
+.uu:hover {
+    background-color: #c8d6e1;
 }
+
 .btn:hover {
     background-color: #43a36f;
 }
 
-header{
-   background-color: #ffffff; 
+header {
+    background-color: #ffffff;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px ;
+    padding: 20px 40px;
 }
-.iteam-parent{
+
+.iteam-parent {
     display: flex;
     gap: 15px;
     list-style: none;
     padding-top: 10px;
-    
-    
+
+
 }
-.iteam-parent a{
+
+.iteam-parent a {
     text-decoration: none;
     color: #000000;
 
 }
 
 
- .pk {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.pk {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .hrr {
-  position: absolute;
-  text-align: center;
-  max-width: 700px;
+    position: absolute;
+    text-align: center;
+    max-width: 700px;
 }
 
 
-body {
-  overflow-x: hidden;
-}
-.h1-1{
-    color: #ffffff; 
-    font-style: normal;
-    margin: 10px auto;
-}
-.h1-2{
-    color: #02eb63;
-    font-style: normal;
-    margin: 10px auto;
-}
-.hrr p{
+
+.h1-1 {
     color: #ffffff;
     font-style: normal;
     margin: 10px auto;
 }
 
-.hrr-1{
+.h1-2 {
+    color: #02eb63;
+    font-style: normal;
+    margin: 10px auto;
+}
+
+.hrr p {
+    color: #ffffff;
+    font-style: normal;
+    margin: 10px auto;
+}
+
+.hrr-1 {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.btn-a{
+
+.btn-a {
     border-radius: 6px;
     padding: 15px 10px;
     border: 1px solid #006028;
-    background-color:#037c35;
+    background-color: #037c35;
     display: inline-flex;
     gap: 12px;
     color: #ffffff;
     font-weight: 400;
     font-size: 16px;
     cursor: pointer;
-    
-   
+
+
 }
+
 .btn-a:hover {
     background-color: #43a36f;
 }
 
 .btn-b {
-  gap: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
 
-  padding: 14px 28px;
-  border-radius: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  background: transparent;
+    padding: 14px 28px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: transparent;
 
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 400;
-  cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
 
-  backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
 }
 
 .btn-b:hover {
-  border-color: #ffffff;
+    border-color: #ffffff;
 }
 
-.ak{
+.ak {
     text-align: center;
-    
+
 }
-.ak h1{
+
+.ak h1 {
     color: #001931;
     font-weight: 700;
     font-size: 48px;
@@ -148,20 +165,30 @@ body {
     margin-bottom: 10px;
 }
 
-.jk {
-  background: #ffffff;
-  border-radius: 5px;
-  padding: 20px;
-  text-align: left;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  
-  
+.ak p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    margin: 15px auto 50px;
+
 }
-.aa{
+
+.jk {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+
+}
+
+.aa {
     display: flex;
     gap: 10px;
 }
-.jk h3{
+
+.jk h3 {
     font-weight: 600;
     font-size: 24px;
     color: #001931;
@@ -170,99 +197,110 @@ body {
 }
 
 .jk img {
-  background-color: rgb(221, 42, 42);
-  width: 50px;
-  height: 50;
-  border-radius: 50px;
-  text-align: center;
-
-  padding: 15px;
+    background-color: rgb(221, 42, 42);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 10px;
+    padding: 15px;
 }
 
-.kkr{
+.kkr {
     display: flex;
     align-items: center;
 }
 
-.ii{
+.ii {
     display: flex;
     margin: 12px auto;
 }
-.oo h6{
+
+.oo h6 {
     font-weight: 300;
     font-size: 16px;
     color: #30b868;
     margin: 15px auto;
 }
-.oo h1{
+
+.oo h1 {
     font-weight: 700;
     font-size: 48px;
     color: #001931;
     margin: 10px auto;
 }
-.oo p{
+
+.oo p {
     font-weight: 400;
-    font: 16px;
+    font-size: 16px;
     color: #627382;
     margin: 30px auto;
 }
-.yy{
+
+.yy {
     border: 1px solid #ffffff;
     background-color: #f7f6f2;
     text-align: center;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
-.yy h1{
+
+.yy h1 {
     font-weight: 700;
     font-size: 40px;
     color: #001931;
     margin: 15px auto;
 }
-.yy p{
+
+.yy p {
     font-weight: 400;
     font-size: 16px;
     color: #627382;
     margin: 15px auto;
 
 }
+
 .mm {
-  background-color: #05012e;
-  border: 1px solid #ffffff;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    padding: 120px 120px 30px 120px;
+    background: var(--Style, rgba(0, 25, 49, 1));
+    color: #ffffff;
 }
 
 .pp {
-  width: 200%;  
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #ffffff;
-  padding: 0 100px;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
-.tt {
-  text-align: center;
-  color: #ffffff;
-  font-size: 14px;
-  margin: 20px 0;
 }
-.icon p{
-    font-weight: 400;
+
+.icon {
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.pp img {
+    display: block;
+}
+
+.icon p {
     font-size: 20px;
-    margin: 10px auto;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
 }
-.tt:before {
-  content: "";
-  display: block;
-  width: 90%;
-  height: 1px;
-  background: rgba(255,255,255,0.3);
-  margin: 0 auto 10px;
+.tt {
+
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+
 }
 
+.footer {
+    border: 1px solid rgb(115, 103, 103);
+    margin: 40px auto;
 
-
+}
